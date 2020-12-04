@@ -1,7 +1,7 @@
-import people
-import salary
-from datetime import datetime, date, time
+from datetime import datetime
 
+from applicaition import salary
+from applicaition.db import people
 
 def buhgalter():
     date = datetime.today()
